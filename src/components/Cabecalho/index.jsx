@@ -1,5 +1,5 @@
 import React from 'react'
-import CabecalhoLink from '../CabecalhoLink';
+import CabecalhoLink from 'components/CabecalhoLink';
 import styles from "./Cabecalho.module.scss";
 
 
