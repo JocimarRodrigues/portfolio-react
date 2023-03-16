@@ -1,3 +1,43 @@
-.scss {
-    color: red;
+.apresentacao {
+    padding: 50px;
+    font-size: 22pt;
+
+
+    span {
+        color: greenyellow;
+        &::after {
+            content: '|';
+            margin-left: 5px;
+            opacity: 1;
+            animation: pisca .7s infinite;
+        }
+    }
+    @keyframes pisca {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+    span:hover {
+        color: blue;
+    }
+
+img {
+    border-radius: 250px;
+    float: right;
+}
+ul {
+    display: flex;
+    list-style: none;
+    li {
+        margin: 0 15px;
+    }
+    img:hover {
+        size: 19px;
+    }
+}
+
+
 }
