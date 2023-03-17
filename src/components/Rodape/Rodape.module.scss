@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+        margin-top: 50px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        li {
+            margin: 0 15px;
+            img {
+                width: 30px;
+                transition: 1s;
+                &:hover {
+                    transform: rotate(720deg);
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,11 @@
+@import 'styles/_variaveis';
+
+.titulo {
+  text-align: center;
+  font-size: $tamanho-do-titulo;
+  color: $cor-sobre
+}
+
 .container {
     ul {
         display: flex;
@@ -10,9 +18,13 @@
         }
         img {
             max-width: 150px;
-            margin: 5px;
-            border: solid 10px white;
+            margin: 15px;
             overflow: hidden;
+            
+            transition: 1s;
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
 }

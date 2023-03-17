@@ -1,61 +1,61 @@
 .container {
-    max-width: 50%;
-    margin: auto;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+
+  justify-content: center;
+  .carousel {
+    border: 15px transparent;
+    max-height: 300px;
+    display: flex;
+    overflow-x: auto;
+
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scroll-behavior: smooth;
+    .item {
+
+
+      flex: none;
+
+      border-radius: 16px;
+      .image {
+        img {
+
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .buttons {
+    width: 100%;
+    .esquerda {
+      float: right;
+      left: 125px;
+    }
+    .direita {
+      transform: rotate(180deg);
+      float: left;
+      right: 125px;
+    }
+
     text-align: center;
-
-
-
-justify-content: center;
-    .carousel {
-        display: flex;
-        overflow-x: auto;
-        margin: auto;
-
-        scroll-behavior: smooth;
-        .item {
-            margin: 10px;
-            padding: 10px;
-            margin: auto;
-            flex: none;
-            border: solid 10px white;
-            border-radius: 16px;
-            .image{
-                img{
-                    margin: auto;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        }
+    button {
+      display: flex;
+      z-index: 1;
+      position: relative;
+      bottom: 180px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      img {
+        width: 120px;
+      }
     }
-    .buttons {
-        width: 100%;
-        .esquerda {
-            float: right;
-            left: 150px;
-            }
-        .direita {
-            transform: rotate(180deg);
-            float: left;
-            right: 115px;
-        }
-
-        text-align: center;
-        button {
-            display: flex;
-            z-index: 1;
-            position: relative;
-            bottom: 200px;
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-            img{
-                width: 120px;
-
-            }
-
-        }
-    }
+  }
 }
 
 /* margin-left: 280px; */
@@ -76,4 +76,9 @@ justify-content: center;
         }
     }
 }
+*/
+
+/* 
+
+
 */
