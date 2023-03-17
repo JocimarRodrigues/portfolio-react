@@ -1,3 +1,4 @@
+import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
 import foto from "./megumin.jpg";
 import styles from "./PaginaInicial.module.scss";
@@ -72,6 +73,7 @@ function PaginaInicial() {
                     agora e poderá acompanhar minha evolução.</p>
         </div>
       </section>
+      <Habilidades />
     </main>
 
   );

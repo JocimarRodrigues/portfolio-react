@@ -1,0 +1,43 @@
+[
+    {
+        "titulo": "JavaScricpt",
+        "id": 1,
+        "imagem": "/assets/Imagens/Icones/icone-js.png"
+    },
+    {
+        "titulo": "HTML",
+        "id": 2,
+        "imagem": "/assets/Imagens/Icones/icone-html.png"
+    },
+    {
+        "titulo": "CSS",
+        "id": 3,
+        "imagem": "/assets/Imagens/Icones/icone-css.png"
+    },
+    {
+        "titulo": "Sass",
+        "id": 4,
+        "imagem": "/assets/Imagens/Icones/icone-sass.png"
+    },
+    {
+        "titulo": "React",
+        "id": 5,
+        "imagem": "/assets/Imagens/Icones/icone-react.png"
+    },
+    {
+        "titulo": "Node",
+        "id": 6,
+        "imagem": "/assets/Imagens/Icones/icone-node.png"
+    },
+    {
+        "titulo": "Git",
+        "id": 7,
+        "imagem": "/assets/Imagens/Icones/icone-git.png"
+    },
+    {
+        "titulo": "GitHub",
+        "id": 8,
+        "imagem": "/assets/Imagens/Icones/icone-github.png"
+    }
+
+]

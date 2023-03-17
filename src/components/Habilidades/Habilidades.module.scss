@@ -1,0 +1,18 @@
+.container {
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        li {
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        img {
+            max-width: 150px;
+            margin: 5px;
+            border: solid 10px white;
+            flex-wrap: wrap;
+        }
+    }
+}
