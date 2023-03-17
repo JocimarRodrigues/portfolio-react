@@ -72,7 +72,6 @@ function PaginaInicial() {
         </motion.div>
       </section>
       <Habilidades />
-      <Carousel />
     </main>
 
   );

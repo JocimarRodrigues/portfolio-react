@@ -1,23 +1,79 @@
 .container {
-    max-width: 75vw;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+
+
+
+justify-content: center;
     .carousel {
         display: flex;
         overflow-x: auto;
+        margin: auto;
+
         scroll-behavior: smooth;
         .item {
             margin: 10px;
             padding: 10px;
-            width: 280px;
+            margin: auto;
+            flex: none;
             border: solid 10px white;
             border-radius: 16px;
             .image{
                 img{
+                    margin: auto;
                     width: 100%;
-                    height: 100%;
                     object-fit: cover;
                 }
             }
         }
     }
+    .buttons {
+        width: 100%;
+        .esquerda {
+            float: right;
+            left: 150px;
+            }
+        .direita {
+            transform: rotate(180deg);
+            float: left;
+            right: 115px;
+        }
+
+        text-align: center;
+        button {
+            display: flex;
+            z-index: 1;
+            position: relative;
+            bottom: 200px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            img{
+                width: 120px;
+
+            }
+
+        }
+    }
 }
 
+/* margin-left: 280px; */
+
+/* 
+.buttons {
+    width: 100%;
+    text-align: center;
+    button {
+        border: none;
+        cursor: pointer;
+        img{
+            width: 120px;
+
+        }
+        &:first-child {
+            transform: rotate(180deg);
+        }
+    }
+}
+*/
