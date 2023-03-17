@@ -2,6 +2,8 @@ import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
 import foto from "./megumin.jpg";
 import styles from "./PaginaInicial.module.scss";
+import { motion } from 'framer-motion'
+import Carousel from "components/Carousel";
 
 
 
@@ -24,11 +26,7 @@ function PaginaInicial() {
     })
   }
 
-  let mostrarConteudo = () => {
-    let conteudo = document.querySelector('#conteudo')
-    conteudo.style.opacity = 1;
-    conteudo.style.transition = '1.8s'
-  }
+
 
 
 
@@ -61,8 +59,8 @@ function PaginaInicial() {
             </ul>
         </div>
       </section>
-      <section className={styles.sobre} id="conteudo" onWheel={mostrarConteudo} onScroll={mostrarConteudo} onMouseEnter={mostrarConteudo}>
-        <div className={styles.conteudo}>
+      <section className={styles.sobre} id="conteudo">
+        <motion.div className={styles.conteudo}>
           <h1>Sobre Mim</h1>
           <p>Olá, meu nome é Jocimar Rodrigues, sempre fui apaixonado por tecnologia, mas nunca tinha tido contato
                     com a programação, até pouco tempo, quando um amigo ingressou no mercado e me explicou como o mesmo
@@ -71,9 +69,10 @@ function PaginaInicial() {
                     problemas. Atualmente estou estudando com
                     foco em me tornar dev Front-End, neste portfólio você poderá ver os projetos que desenvolvi até
                     agora e poderá acompanhar minha evolução.</p>
-        </div>
+        </motion.div>
       </section>
       <Habilidades />
+      <Carousel />
     </main>
 
   );

@@ -1,0 +1,23 @@
+.container {
+    max-width: 75vw;
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        .item {
+            margin: 10px;
+            padding: 10px;
+            width: 280px;
+            border: solid 10px white;
+            border-radius: 16px;
+            .image{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
