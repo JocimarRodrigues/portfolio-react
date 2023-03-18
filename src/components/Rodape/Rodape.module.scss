@@ -1,11 +1,17 @@
 .container {
     display: flex;
-    background-color: red;
+    background: rgb(18,19,48);
+background: linear-gradient(90deg, rgba(18, 19, 48, 0.124) 19%, rgba(37,40,103,1) 51%, rgba(80, 73, 174, 0.313) 84%);
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 15px;
+    
     p {
         margin-top: 50px;
+        b {
+            color: yellow;
+        }
     }
     ul {
         display: flex;
@@ -16,6 +22,7 @@
             img {
                 width: 30px;
                 transition: 1s;
+                cursor: pointer;
                 &:hover {
                     transform: rotate(720deg);
                 }
