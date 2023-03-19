@@ -1,9 +1,24 @@
-.projetos {
+.container {
     background: url(./background3.png);
     background-size: 100vw;
     background-repeat: no-repeat;
-}
+    text-align: center;
 
-.container {
-    color: greenyellow;
+    .lista {
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            li {
+                list-style: none;
+                img {
+                    max-width: 250px;
+                    height: 250px;
+                    margin: 15px;
+                    overflow: hidden;
+                    border-radius: 15px;
+            }
+        }
+
+        }
+    }
 }
