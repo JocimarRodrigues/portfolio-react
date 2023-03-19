@@ -1,0 +1,61 @@
+.modal {
+    color: black
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    .conteudo {
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        width: 50%;
+        height: 50%;
+        z-index: 10;
+        .fechar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 15pt;
+                &:hover {
+                    color: red;
+                }
+            }
+          }
+        .grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            img {
+                grid-row: 1/4;
+            }
+            h1 {
+                grid-column: 1/1;
+            }
+            h2 {
+                grid-row: 1/2;
+                font-size: 15pt;
+                max-width: 100%;
+                font-style: italic;
+            }
+            h4 {
+                grid-row: 2/2;
+                grid-column: 2/2;
+                padding: 20px;
+            }
+
+        }
+    }
+  }
+  

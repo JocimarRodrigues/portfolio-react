@@ -5,6 +5,7 @@ import icones from "./icones.json";
 
 function Habilidades() {
 
+
   return (
     <>
     <h1 className={styles.titulo}>Habilidades</h1>
