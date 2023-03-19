@@ -1,12 +1,12 @@
 import Carousel from "components/Carousel";
 import React, { useState } from "react";
 import styles from "./Projetos.module.scss";
-import projetos from "./projetos.json";
+
 import Modal from "components/Modal";
 import ProjetosCadastrados from "components/ProjetosCadastrados";
 
 
-function PaginaProjetos({descricao}) {
+function PaginaProjetos({descricao, id, imagem}) {
 
   const [mostrarModal, setMostrarModal] = useState(false);
 
@@ -28,32 +28,10 @@ function PaginaProjetos({descricao}) {
         {descricao}
       </div>
       <Carousel>
-        <div className={styles.lista}>
-          <ul>
-            {projetos.map((item) => {
-              return (
-                <li key={item.id}>
-                  <img src={item.imagem} 
-                  onClick={abrirModal}/>
 
-                  <Modal descricao={item.descricao}
-                  mostrarModal={mostrarModal}
-                  fecharModal={fecharModal}
-                  />
-                </li>
-              )
-            })}
-            <li>
-              <img src="/imagens/fujiwara.png" alt="" />
-            </li>
-            <li>
-              <img src="/imagens/ania.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/imagens/megumin2.png" alt="" />
-            </li>
-          </ul>
-        </div>
+        <ProjetosCadastrados categoria="JavaScript"/>
+
+
       </Carousel>
       <h1>React</h1>
       <Carousel>
@@ -148,5 +126,23 @@ function PaginaProjetos() {
 
 export default PaginaProjetos;
 
+
+*/
+
+
+/* 
+            {projetos.map((item) => {
+              return (
+                <li key={item.id}>
+                  <img src={item.imagem} 
+                  onClick={abrirModal}/>
+
+                  <Modal descricao={item.descricao}
+                  mostrarModal={mostrarModal}
+                  fecharModal={fecharModal}
+                  />
+                </li>
+              )
+            })}
 
 */
