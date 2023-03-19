@@ -1,5 +1,11 @@
 @import "styles/_variaveis";
 
+.container {
+  background-image: url(../PaginaInicial/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .apresentacao {
   padding: 20px 50px;
   font-family: $fonte-roboto;

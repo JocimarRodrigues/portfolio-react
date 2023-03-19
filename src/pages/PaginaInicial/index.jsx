@@ -26,7 +26,9 @@ function PaginaInicial() {
 
   return (
     <>
-      <main>
+
+      <section className={styles.container}>
+
         <section>
           <div className={styles.apresentacao}>
             <img src={foto} alt="" />
@@ -88,8 +90,12 @@ function PaginaInicial() {
             <img src="/assets/imagens/PaginaInicial/vitrine.png" alt="" />
           </div>
         </section>
-      </main>
       <Rodape />
+
+      </section>
+
+        
+
     </>
   );
 }
