@@ -3,7 +3,7 @@
         "id": 0,
         "imagem": "/assets/Imagens/Projetos/Javascript/projeto1.png",
         "descricao": "Este projeto foi realizado com base nos conhecimentos que adquiri na plataforma ALURA. A ideia é recriar o game FreeWay de Atari, este projeto foca em utilizar laços, condições e listas.",
-        "tags": "JavaScript",
+        "categoria": "JavaScript",
         "linkGitHub": "https://editor.p5js.org/John1336/sketches/zAKMb2FnG",
         "linkDeploy": "https://editor.p5js.org/John1336/full/zAKMb2FnG"
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "imagem": "/assets/Imagens/Projetos/Javascript/JokenPo.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
-        "tags": "React",
+        "categoria": "React",
         "linkGitHub": "https://github.com/JocimarRodrigues/Jogo-JokenPo",
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
     }

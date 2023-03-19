@@ -21,8 +21,8 @@ function PaginaProjetos({descricao}) {
 
   return (
     <section className={styles.container}>
-      <ProjetosCadastrados java="JavaScript"/>
-      <ProjetosCadastrados java="React"/>
+      <ProjetosCadastrados categoria="JavaScript"/>
+      <ProjetosCadastrados categoria="React"/>
       <h1>Javascript</h1>
       <div>
         {descricao}
@@ -35,6 +35,7 @@ function PaginaProjetos({descricao}) {
                 <li key={item.id}>
                   <img src={item.imagem} 
                   onClick={abrirModal}/>
+
                   <Modal descricao={item.descricao}
                   mostrarModal={mostrarModal}
                   fecharModal={fecharModal}
