@@ -1,7 +1,7 @@
 import Modal from "components/Modal";
 import React, { useState } from "react";
 
-import projetos from "./projetos.json";
+
 
 import styles from "./ProjetosCadastrados.module.scss"
 

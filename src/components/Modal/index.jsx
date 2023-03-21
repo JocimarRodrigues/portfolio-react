@@ -13,7 +13,7 @@ function Modal({mostrarModal, descricao, fecharModal, imagem}) {
                      <button onClick={fecharModal}>X</button>
                    </div>
                    <div className={styles.grid}>
-
+                      <img src={imagem} alt={descricao} />
                      <h1></h1>
                      <h2>{descricao}</h2>
                      <h2></h2>
