@@ -22,11 +22,11 @@ function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDepl
   return (
     <>
     <div className={styles.container}>
-      <ul>
+
         <li>
           <img src={imagem} alt={descricao} onClick={abrirModal}/>
         </li>
-      </ul>
+
     </div>
     <div>
       <Modal 

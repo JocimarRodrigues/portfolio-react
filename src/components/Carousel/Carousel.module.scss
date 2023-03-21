@@ -6,9 +6,10 @@
   justify-content: center;
   .carousel {
     border: 15px transparent;
-    max-height: 300px;
+    max-height: 500px;
     display: flex;
     overflow-x: auto;
+
 
 
     &::-webkit-scrollbar {

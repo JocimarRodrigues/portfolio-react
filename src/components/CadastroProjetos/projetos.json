@@ -11,9 +11,43 @@
         "id": 1,
         "imagem": "/assets/Imagens/Projetos/Javascript/JokenPo.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
+        "tags": "JavaScript",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Jogo-JokenPo",
+        "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
+    },
+    {
+        "id": 2,
+        "imagem": "/assets/Imagens/Projetos/Javascript/ValidaCep.png",
+        "descricao": "Projeto BuscaCep",
+        "tags": "JavaScript",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Valida-CEP",
+        "linkDeploy": "https://jocimarrodrigues.github.io/Valida-CEP/"
+    },
+    {
+        "id": 3,
+        "imagem": "/assets/Imagens/Projetos/Javascript/Relogio.png",
+        "descricao": "Relogio.",
+        "tags": "JavaScript",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Relogio",
+        "linkDeploy": "https://jocimarrodrigues.github.io/Relogio/"
+    },
+    {
+        "id": 4,
+        "imagem": "/assets/Imagens/Projetos/React/SecretWord.png",
+        "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "React",
         "linkGitHub": "https://github.com/JocimarRodrigues/Jogo-JokenPo",
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
+    },
+    {
+        "id": 5,
+        "imagem": "/assets/Imagens/Projetos/React/Estante-Virtual.png",
+        "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
+        "tags": "React",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Estante-Virtual",
+        "linkDeploy": "https://estantevirtual-jocimar.vercel.app"
     }
 
 ]
+
+

@@ -13,17 +13,23 @@
             padding: 0;
             display: flex;
             justify-content: space-evenly;
+
             li {
                 p {
                     color: white;
                 }
                 list-style: none;
                 img {
-                    max-width: 250px;
+                    max-width: 350px;
                     height: 250px;
                     margin: 15px;
                     overflow: hidden;
                     border-radius: 15px;
+                    transition: 1s;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
             }
         }
 

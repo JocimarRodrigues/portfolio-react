@@ -7,49 +7,32 @@ import Modal from "components/Modal";
 import CadastroProjetos from "components/CadastroProjetos";
 import ProjetosCadastrados from "components/ProjetosCadastrados";
 
-
-function PaginaProjetos({descricao}) {
-
+function PaginaProjetos({ descricao }) {
   const [mostrarModal, setMostrarModal] = useState(false);
-
 
   const abrirModal = () => {
     setMostrarModal(true);
-  }
+  };
 
   const fecharModal = () => {
     setMostrarModal(false);
-  }
-
+  };
 
   return (
     <section className={styles.container}>
-      <CadastroProjetos categoria="JavaScript"/>
-
       <h1>Javascript</h1>
-      <div>
-        {descricao}
-      </div>
       <Carousel>
         <div className={styles.lista}>
-
-            <CadastroProjetos categoria="JavaScript"/>
-
+          <ul>
+            <CadastroProjetos categoria="JavaScript" />
+          </ul>
         </div>
       </Carousel>
       <h1>React</h1>
       <Carousel>
         <div className={styles.lista}>
           <ul>
-            <li>
-              <img src="/imagens/fujiwara.png" alt="" />
-            </li>
-            <li>
-              <img src="/imagens/ania.jpg" alt="" />
-            </li>
-            <li>
-              <img src="/imagens/megumin2.png" alt="" />
-            </li>
+            <CadastroProjetos categoria="React" />
           </ul>
         </div>
       </Carousel>
@@ -58,7 +41,6 @@ function PaginaProjetos({descricao}) {
 }
 
 export default PaginaProjetos;
-
 
 /* 
 import Carousel from "components/Carousel";
