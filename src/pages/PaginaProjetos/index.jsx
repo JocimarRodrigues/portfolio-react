@@ -1,5 +1,5 @@
 import Carousel from "components/Carousel";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Projetos.module.scss";
 import projetos from "./projetos.json";
 import Modal from "components/Modal";
@@ -9,6 +9,7 @@ import ProjetosCadastrados from "components/ProjetosCadastrados";
 function PaginaProjetos({descricao}) {
 
   const [mostrarModal, setMostrarModal] = useState(false);
+
 
   const abrirModal = () => {
     setMostrarModal(true);
@@ -36,6 +37,7 @@ function PaginaProjetos({descricao}) {
                   <img src={item.imagem} 
                   onClick={abrirModal}/>
                   <Modal descricao={item.descricao}
+
                   mostrarModal={mostrarModal}
                   fecharModal={fecharModal}
                   />
