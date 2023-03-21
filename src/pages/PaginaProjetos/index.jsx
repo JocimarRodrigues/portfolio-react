@@ -4,6 +4,7 @@ import styles from "./Projetos.module.scss";
 import projetos from "./projetos.json";
 import Modal from "components/Modal";
 import ProjetosCadastrados from "components/ProjetosCadastrados";
+import CadastroProjetos from "components/CadastroProjetos";
 
 
 function PaginaProjetos({descricao}) {
@@ -22,8 +23,8 @@ function PaginaProjetos({descricao}) {
 
   return (
     <section className={styles.container}>
-      <ProjetosCadastrados java="JavaScript"/>
-      <ProjetosCadastrados java="React"/>
+      <CadastroProjetos categoria="JavaScript"/>
+      <CadastroProjetos categoria="React"/>
       <h1>Javascript</h1>
       <div>
         {descricao}
