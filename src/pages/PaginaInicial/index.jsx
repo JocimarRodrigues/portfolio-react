@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import foto from "./megumin.jpg";
 import styles from "./PaginaInicial.module.scss";
 import { motion } from "framer-motion";
-import Rodape from "components/Rodape";
+
 
 function PaginaInicial() {
   const nomeRef = useRef(null);
@@ -47,7 +47,7 @@ function PaginaInicial() {
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="./Contato">
                   <img
                     src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=whitee"
                     alt="Badget Gmail"
@@ -65,7 +65,7 @@ function PaginaInicial() {
             </ul>
           </div>
         </section>
-        <section className={styles.sobre} id="conteudo">
+        <section className={styles.sobre} id="nav-conteudo">
           <motion.div className={styles.conteudo}>
             <h1>Sobre Mim</h1>
             <p>
