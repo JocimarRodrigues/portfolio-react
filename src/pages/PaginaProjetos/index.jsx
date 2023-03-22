@@ -1,15 +1,13 @@
 import Carousel from "components/Carousel";
 import React, { useState } from "react";
 import styles from "./Projetos.module.scss";
-
+import projetos from "./projetos.json";
 import Modal from "components/Modal";
 
 import CadastroProjetos from "components/CadastroProjetos";
 import ProjetosCadastrados from "components/ProjetosCadastrados";
 
-
-function PaginaProjetos({descricao, id, imagem}) {
-
+function PaginaProjetos({ descricao }) {
   const [mostrarModal, setMostrarModal] = useState(false);
 
   const abrirModal = () => {
@@ -22,14 +20,13 @@ function PaginaProjetos({descricao, id, imagem}) {
 
   return (
     <section className={styles.container}>
-      <ProjetosCadastrados categoria="JavaScript"/>
-      <ProjetosCadastrados categoria="React"/>
       <h1>Javascript</h1>
       <Carousel>
-
-        <ProjetosCadastrados categoria="JavaScript"/>
-
-
+        <div className={styles.lista}>
+          <ul>
+            <CadastroProjetos categoria="JavaScript" />
+          </ul>
+        </div>
       </Carousel>
       <h1>React</h1>
       <Carousel>
@@ -113,25 +110,4 @@ function PaginaProjetos() {
   );
 }
 
-export default PaginaProjetos;
-
-
-*/
-
-
-/* 
-            {projetos.map((item) => {
-              return (
-                <li key={item.id}>
-                  <img src={item.imagem} 
-                  onClick={abrirModal}/>
-
-                  <Modal descricao={item.descricao}
-                  mostrarModal={mostrarModal}
-                  fecharModal={fecharModal}
-                  />
-                </li>
-              )
-            })}
-
-*/
+ex */
