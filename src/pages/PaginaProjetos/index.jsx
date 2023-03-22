@@ -1,22 +1,12 @@
 import Carousel from "components/Carousel";
-import React, { useState } from "react";
+
 import styles from "./Projetos.module.scss";
-import projetos from "./projetos.json";
-import Modal from "components/Modal";
+
 
 import CadastroProjetos from "components/CadastroProjetos";
-import ProjetosCadastrados from "components/ProjetosCadastrados";
 
-function PaginaProjetos({ descricao }) {
-  const [mostrarModal, setMostrarModal] = useState(false);
 
-  const abrirModal = () => {
-    setMostrarModal(true);
-  };
-
-  const fecharModal = () => {
-    setMostrarModal(false);
-  };
+function PaginaProjetos() {
 
   return (
     <section className={styles.container}>
@@ -110,4 +100,7 @@ function PaginaProjetos() {
   );
 }
 
-ex */
+export default PaginaProjetos;
+
+
+*/
