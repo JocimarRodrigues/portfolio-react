@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 import Modal from "components/Modal";
 import React, { useState } from "react";
 
+=======
+import React from "react";
+import Cards from "./Cards";
+import projetos from './projetos.json';
+>>>>>>> 76a4e5766f9fef8dfaa86dd7f5f1574bc8f7a230
 
 
-import styles from "./ProjetosCadastrados.module.scss"
 
+<<<<<<< HEAD
 function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDeploy }) {
 
   const [mostrarModal, setMostrarModal] = useState(false);
@@ -42,6 +48,24 @@ function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDepl
     </div>
     </>
 
+=======
+function ProjetosCadastrados({ categoria }) {
+
+
+  return (
+    <section>
+        <div>
+            
+                {projetos.map((item) => categoria === item.categoria && (
+                    <Cards 
+                    key={item.id}
+                    imagem={item.imagem}
+                    />
+                ))}
+     
+        </div>
+    </section>
+>>>>>>> 76a4e5766f9fef8dfaa86dd7f5f1574bc8f7a230
   );
 }
 
