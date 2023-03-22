@@ -23,8 +23,8 @@ function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDepl
     <>
     <div className={styles.container}>
 
-        <li>
-          <img src={imagem} alt={descricao} onClick={abrirModal}/>
+        <li >
+          <img src={imagem} alt={descricao} key={id} onClick={abrirModal}/>
         </li>
 
     </div>

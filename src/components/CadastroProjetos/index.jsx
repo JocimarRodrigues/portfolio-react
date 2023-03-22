@@ -10,6 +10,7 @@ function CadastroProjetos({categoria}) {
           categoria === item.tags && (
             <ProjetosCadastrados 
             id={item.id}
+            key={item.id}
             imagem={item.imagem}
             descricao={item.descricao}
             tags={item.tags}

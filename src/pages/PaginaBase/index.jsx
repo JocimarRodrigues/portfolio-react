@@ -1,3 +1,4 @@
+import Rodape from 'components/Rodape'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Cabecalho from '../../components/Cabecalho'
@@ -10,6 +11,7 @@ function PaginaBase() {
         <Container>
             <Outlet />
         </Container>
+        <Rodape />
     </main>
   )
 }

@@ -1,6 +1,15 @@
 [
     {
         "id": 0,
+        "imagem": "/assets/Imagens/Projetos/HTML-CSS/Barbearia-Alura.png",
+        "descricao": "Primeiro projeto HTML",
+        "tags": "HTML-CSS",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Barbearia-Alura",
+        "linkDeploy": "https://barbearia-alura-cld6vtwau-jocimarrodrigues.vercel.app"
+    },
+
+    {
+        "id": 1,
         "imagem": "/assets/Imagens/Projetos/Javascript/projeto1.png",
         "descricao": "Este projeto foi realizado com base nos conhecimentos que adquiri na plataforma ALURA. A ideia é recriar o game FreeWay de Atari, este projeto foca em utilizar laços, condições e listas.",
         "tags": "JavaScript",
@@ -8,7 +17,7 @@
         "linkDeploy": "https://editor.p5js.org/John1336/full/zAKMb2FnG"
     },
     {
-        "id": 1,
+        "id": 2,
         "imagem": "/assets/Imagens/Projetos/Javascript/JokenPo.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "JavaScript",
@@ -16,7 +25,7 @@
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
     },
     {
-        "id": 2,
+        "id": 3,
         "imagem": "/assets/Imagens/Projetos/Javascript/ValidaCep.png",
         "descricao": "Projeto BuscaCep",
         "tags": "JavaScript",
@@ -24,7 +33,16 @@
         "linkDeploy": "https://jocimarrodrigues.github.io/Valida-CEP/"
     },
     {
-        "id": 3,
+        "id": 4,
+        "imagem": "/assets/Imagens/Projetos/Javascript/PortfolioHTML.png",
+        "descricao": "Portfolio HTML",
+        "tags": "JavaScript",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Portfolio",
+        "linkDeploy": "https://jocimarrodrigues.github.io/Portfolio/"
+    },
+
+    {
+        "id": 5,
         "imagem": "/assets/Imagens/Projetos/Javascript/Relogio.png",
         "descricao": "Relogio.",
         "tags": "JavaScript",
@@ -32,7 +50,7 @@
         "linkDeploy": "https://jocimarrodrigues.github.io/Relogio/"
     },
     {
-        "id": 4,
+        "id": 6,
         "imagem": "/assets/Imagens/Projetos/React/SecretWord.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "React",
@@ -40,7 +58,7 @@
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
     },
     {
-        "id": 5,
+        "id": 7,
         "imagem": "/assets/Imagens/Projetos/React/Estante-Virtual.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "React",

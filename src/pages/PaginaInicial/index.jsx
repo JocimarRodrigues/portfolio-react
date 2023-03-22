@@ -90,7 +90,6 @@ function PaginaInicial() {
             <img src="/assets/imagens/PaginaInicial/vitrine.png" alt="" />
           </div>
         </section>
-      <Rodape />
 
       </section>
 
