@@ -1,3 +1,4 @@
+import PaginaContato from "pages/PaginaContato";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PaginaBase from "./pages/PaginaBase";
@@ -11,6 +12,7 @@ function AppRoutes() {
         <Route path="/" element={<PaginaBase />}>
           <Route index element={<PaginaInicial />}></Route>
           <Route path="projetos" element={<PaginaProjetos />}></Route>
+          <Route path="contato" element={<PaginaContato />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

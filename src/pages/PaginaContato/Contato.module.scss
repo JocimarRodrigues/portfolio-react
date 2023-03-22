@@ -1,0 +1,37 @@
+@import 'styles/variaveis';
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: url(./Contato4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        li {
+            margin: 25px;
+            list-style: none;
+            img {
+                width: 150px;
+                transition: 1s;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    h1 {
+        font-size: $tamanho-do-titulo;
+        color: $cor-apresentacao
+    }
+    h2 {
+        font-size: $tamanho-do-texto * 1.6;
+        color: $cor-sobre;
+    }
+}
