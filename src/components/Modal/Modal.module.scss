@@ -14,13 +14,15 @@
     align-items: center;
     color: black;
     z-index: 2;
+
     .conteudo {
         background: #fff;
         padding: 20px;
-        border-radius: 5px;
-        width: 50%;
-        height: 50%;
+        border-radius: 15px;
+        width: 70%;
+        height: 70%;
         z-index: 10;
+    
         .fechar {
             display: flex;
             justify-content: flex-end;
@@ -37,26 +39,57 @@
           }
         .grid {
             display: grid;
-            grid-template-columns: auto 1fr;
+            height: 90%;
+            column-gap: 50px;
+            
             img {
                 height: 100%;
-                width: 250px;
-                grid-row: 1/4;
+                width: 100%;
+                grid-column: 1;
+                grid-row: 1/5;
+                border: 10px solid blue;
             }
             h1 {
-                grid-column: 1/1;
+                grid-column: 2/2;
+                grid-row: 1/2;
                 color: red;
+
+                text-align: center;
             }
             h2 {
-                grid-row: 1/2;
+                padding: 25px;
                 font-size: 15pt;
                 max-width: 100%;
+                grid-row: 2/3;
                 font-style: italic;
             }
-            h4 {
-                grid-row: 2/2;
-                grid-column: 2/2;
-                padding: 20px;
+            .buttons {
+                grid-row: 4/4;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                .btnGitHub {
+                    background: black;
+  
+                }
+                .btnLinkedin {
+                    background: blue;
+
+                }
+                button {
+                    color: white;
+                    font-weight: 500;
+                    grid-column: 2/2;
+                    width: 100%;
+                    padding: 20px;
+                    transition: 1s;
+                    border: none;
+
+                
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
             }
 
         }

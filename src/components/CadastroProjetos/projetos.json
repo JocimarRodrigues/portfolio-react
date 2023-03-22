@@ -40,7 +40,7 @@
         "id": 4,
         "titulo": "Portfólio HTML",
         "imagem": "/assets/Imagens/Projetos/Javascript/PortfolioHTML.png",
-        "descricao": "Portfolio HTML",
+        "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Portfolio",
         "linkDeploy": "https://jocimarrodrigues.github.io/Portfolio/"

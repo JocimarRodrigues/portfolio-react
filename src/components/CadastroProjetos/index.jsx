@@ -16,7 +16,7 @@ function CadastroProjetos({categoria}) {
             descricao={item.descricao}
             tags={item.tags}
             linkGitHub={item.linkGitHub}
-            linkDeploy={item.deploy}
+            linkDeploy={item.linkDeploy}
             />
           )
       )}
