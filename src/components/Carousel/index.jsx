@@ -24,9 +24,6 @@ function Carousel({children}) {
   return (
     <>
     <div className={styles.container}>
-        <div className={styles.logo}>
-
-        </div>
         <div className={styles.carousel} ref={carousel}>
             <div className={styles.item}>
                 <div className={styles.image}>
