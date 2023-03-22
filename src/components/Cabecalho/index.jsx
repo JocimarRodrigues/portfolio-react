@@ -19,7 +19,7 @@ function Cabecalho() {
       Projetos
       </li>
     </CabecalhoLink>
-    <CabecalhoLink url="./contato">
+    <CabecalhoLink url="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337">
       <li>
       Cursos e Certificados
       </li>

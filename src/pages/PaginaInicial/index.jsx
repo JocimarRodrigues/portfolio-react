@@ -2,7 +2,7 @@ import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
 import foto from "./megumin.jpg";
 import styles from "./PaginaInicial.module.scss";
-import { motion } from "framer-motion";
+
 
 
 function PaginaInicial() {
@@ -66,7 +66,7 @@ function PaginaInicial() {
           </div>
         </section>
         <section className={styles.sobre} id="nav-conteudo">
-          <motion.div className={styles.conteudo}>
+          <div className={styles.conteudo}>
             <h1>Sobre Mim</h1>
             <p>
               Olá, meu nome é Jocimar Rodrigues, sempre fui apaixonado por
@@ -82,7 +82,7 @@ function PaginaInicial() {
                 acompanhar minha evolução.
               
             </p>
-          </motion.div>
+          </div>
         </section>
         <section>
           <Habilidades />
