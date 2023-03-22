@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Modal.module.scss'
 
-function Modal({mostrarModal, descricao, fecharModal, imagem}) {
+function Modal({mostrarModal, descricao, fecharModal, imagem, titulo}) {
 
   return (
 
@@ -14,10 +14,9 @@ function Modal({mostrarModal, descricao, fecharModal, imagem}) {
                    </div>
                    <div className={styles.grid}>
                       <img src={imagem} alt={descricao} />
-                     <h1></h1>
+                     <h1>{titulo}</h1>
                      <h2>{descricao}</h2>
-                     <h2></h2>
-                     <h4></h4>
+                     <h4>s</h4>
                    </div>
                  </div>
                </div>

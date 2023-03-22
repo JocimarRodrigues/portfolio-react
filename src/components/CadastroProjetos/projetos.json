@@ -1,6 +1,7 @@
 [
     {
         "id": 0,
+        "titulo": "Barbearia Alura",
         "imagem": "/assets/Imagens/Projetos/HTML-CSS/Barbearia-Alura.png",
         "descricao": "Primeiro projeto HTML",
         "tags": "HTML-CSS",
@@ -10,6 +11,7 @@
 
     {
         "id": 1,
+        "titulo": "FreeWay",
         "imagem": "/assets/Imagens/Projetos/Javascript/projeto1.png",
         "descricao": "Este projeto foi realizado com base nos conhecimentos que adquiri na plataforma ALURA. A ideia é recriar o game FreeWay de Atari, este projeto foca em utilizar laços, condições e listas.",
         "tags": "JavaScript",
@@ -18,6 +20,7 @@
     },
     {
         "id": 2,
+        "titulo": "JokenPo",
         "imagem": "/assets/Imagens/Projetos/Javascript/JokenPo.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "JavaScript",
@@ -26,14 +29,16 @@
     },
     {
         "id": 3,
+        "titulo": "ValidaCep",
         "imagem": "/assets/Imagens/Projetos/Javascript/ValidaCep.png",
-        "descricao": "Projeto BuscaCep",
+        "descricao": "Projeto ValidaCep",
         "tags": "JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Valida-CEP",
         "linkDeploy": "https://jocimarrodrigues.github.io/Valida-CEP/"
     },
     {
         "id": 4,
+        "titulo": "Portfólio HTML",
         "imagem": "/assets/Imagens/Projetos/Javascript/PortfolioHTML.png",
         "descricao": "Portfolio HTML",
         "tags": "JavaScript",
@@ -43,6 +48,7 @@
 
     {
         "id": 5,
+        "titulo": "Relógio",
         "imagem": "/assets/Imagens/Projetos/Javascript/Relogio.png",
         "descricao": "Relogio.",
         "tags": "JavaScript",
@@ -51,6 +57,7 @@
     },
     {
         "id": 6,
+        "titulo": "SecretWord",
         "imagem": "/assets/Imagens/Projetos/React/SecretWord.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "React",
@@ -59,6 +66,7 @@
     },
     {
         "id": 7,
+        "titulo": "Estante-Virtual",
         "imagem": "/assets/Imagens/Projetos/React/Estante-Virtual.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
         "tags": "React",

@@ -9,6 +9,7 @@ function CadastroProjetos({categoria}) {
         (item) =>
           categoria === item.tags && (
             <ProjetosCadastrados 
+            titulo={item.titulo}
             id={item.id}
             key={item.id}
             imagem={item.imagem}

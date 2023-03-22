@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 import styles from "./ProjetosCadastrados.module.scss"
 
-function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDeploy }) {
+function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDeploy, titulo }) {
 
   const [mostrarModal, setMostrarModal] = useState(false);
 
@@ -32,6 +32,7 @@ function ProjetosCadastrados({ id, imagem, descricao, tags, linkGitHub, linkDepl
       <Modal 
       mostrarModal={mostrarModal}
       fecharModal={fecharModal}
+      titulo={titulo}
       id={id}
       descricao={descricao}
       imagem={imagem}
