@@ -24,3 +24,19 @@ function ProjetosCadastrados({ categoria }) {
 }
 
 export default ProjetosCadastrados;
+
+
+/* <ul>
+{projetos.map((item) => {
+  return (
+    <li key={item.id}>
+      <img src={item.imagem} 
+      onClick={abrirModal}/>
+      <Modal descricao={item.descricao}
+
+      mostrarModal={mostrarModal}
+      fecharModal={fecharModal}
+      />
+    </li>
+  )
+})} */

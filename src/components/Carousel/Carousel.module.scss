@@ -6,9 +6,10 @@
   justify-content: center;
   .carousel {
     border: 15px transparent;
-    max-height: 300px;
+    max-height: 500px;
     display: flex;
     overflow-x: auto;
+
 
 
     &::-webkit-scrollbar {
@@ -21,13 +22,7 @@
       flex: none;
 
       border-radius: 16px;
-      .image {
-        img {
 
-          width: 100%;
-          object-fit: cover;
-        }
-      }
     }
   }
   .buttons {
@@ -44,7 +39,6 @@
 
     text-align: center;
     button {
-      display: flex;
       z-index: 1;
       position: relative;
       bottom: 180px;

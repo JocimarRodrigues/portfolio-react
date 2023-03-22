@@ -1,3 +1,5 @@
+@import 'styles/_variaveis';
+
 .container {
     background: url(./background3.png);
     background-size: 100vw;
@@ -7,23 +9,32 @@
     flex-direction: column;
 
 
-
+    h1 {
+        font-size: $tamanho-do-titulo;
+        color: $cor-apresentacao;
+    }
     .lista {
         ul {
             padding: 0;
             display: flex;
             justify-content: space-evenly;
+
             li {
                 p {
                     color: white;
                 }
                 list-style: none;
                 img {
-                    max-width: 250px;
-                    height: 250px;
+                    width: 300px;
+                    height: 200px;
                     margin: 15px;
                     overflow: hidden;
                     border-radius: 15px;
+                    transition: 1s;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
             }
         }
 
