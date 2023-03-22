@@ -110,7 +110,4 @@ function PaginaProjetos() {
   );
 }
 
-export default PaginaProjetos;
-
-
-*/
+ex */
