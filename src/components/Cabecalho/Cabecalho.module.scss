@@ -51,6 +51,17 @@
     }
 }
 
+@media (width: 360px) {
+    .cabecalho {
+        position: fixed;
+        .nav {
+            li {
+                margin: auto;
+                font-size: $tamanho-do-texto * 0.7;
+            }
+        }
+    }
+}
 /* 
         position: fixed;
         display: flex;

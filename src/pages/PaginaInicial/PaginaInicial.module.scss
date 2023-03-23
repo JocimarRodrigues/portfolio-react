@@ -91,14 +91,56 @@
 }
 
 .vitrine {
-    margin-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 
-    img{
-        transition: 1s;
-        &:hover{
-            transform: scale(1.2);
-        }
+  img {
+    transition: 1s;
+    &:hover {
+      transform: scale(1.2);
     }
+  }
+}
+
+@media (width: 360px) {
+  .container {
+    .apresentacao {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        float: none;
+        width: 80vw;
+      }
+      h1,
+      h2,
+      span {
+        font-size: $tamanho-do-texto;
+        padding-top: 15px;
+      }
+      ul {
+        li {
+          margin: 0 5px;
+          img {
+            width: 18vw;
+          }
+        }
+      }
+    }
+  }
+
+  .sobre {
+    margin: 0;
+
+    h1 {
+      font-size: $tamanho-do-titulo / 1.5;
+      text-align: center;
+    }
+    p {
+      font-size: $tamanho-do-texto;
+    }
+  }
 }
