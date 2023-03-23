@@ -52,27 +52,27 @@
   }
 }
 
-/* margin-left: 280px; */
+@media (width: 360px) {
+  .container {
+    .carousel {
 
-/* 
-.buttons {
-    width: 100%;
-    text-align: center;
-    button {
-        border: none;
-        cursor: pointer;
-        img{
-            width: 120px;
 
-        }
-        &:first-child {
-            transform: rotate(180deg);
-        }
     }
+    .buttons {
+      .esquerda {
+        float: right;
+        left: 80px;
+      }
+
+      .direita {
+        right: 80px;
+      }
+      button {
+        bottom: 118px;
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
 }
-*/
-
-/* 
-
-
-*/

@@ -28,3 +28,13 @@
         }
     }
 }
+
+@media (width: 360px) {
+    .container {
+        ul {
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
