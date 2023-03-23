@@ -53,6 +53,7 @@
 
 @media (width: 360px) {
     .cabecalho {
+        padding: 0;
         position: fixed;
         .nav {
             li {
@@ -62,7 +63,16 @@
         }
     }
 }
-/* 
-        position: fixed;
-        display: flex;
-*/
+
+@media (width: 414px) {
+    .cabecalho {
+        padding: 0;
+        .nav {
+            li {
+
+                margin: auto;
+                font-size: $tamanho-do-texto * 0.8;
+            }
+        }
+    }
+}

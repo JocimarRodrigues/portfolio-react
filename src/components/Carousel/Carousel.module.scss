@@ -54,10 +54,6 @@
 
 @media (width: 360px) {
   .container {
-    .carousel {
-
-
-    }
     .buttons {
       .esquerda {
         float: right;
@@ -69,6 +65,27 @@
       }
       button {
         bottom: 118px;
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media (width: 414px) {
+  .container {
+
+    .buttons {
+      .esquerda {
+        left: 80px;
+      }
+
+      .direita {
+        right: 80px;
+      }
+      button {
+        bottom: 141px;
         img {
           width: 70px;
         }

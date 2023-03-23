@@ -38,3 +38,13 @@
         }
     }
 }
+
+@media (width: 414px) {
+    .container {
+        ul {
+            img {
+                width: 140px;
+            }
+        }
+    }
+}

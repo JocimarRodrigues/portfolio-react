@@ -34,10 +34,10 @@ function Carousel({children}) {
         </div>
     <div className={styles.buttons}>
     <button className={styles.esquerda} onClick={aoClicarEsquerda}>
-        <img src="/assets/Imagens/icones/seta-direita.png" alt="Seta-Esquerda" />
+        <img src="/assets/Imagens/icones/seta.png" alt="Seta-Esquerda" />
     </button>    
     <button className={styles.direita} onClick={aoClicarDireita}>
-    <img src="/assets/Imagens/icones/seta-direita.png" alt="Seta-Direita" />
+    <img src="/assets/Imagens/icones/seta.png" alt="Seta-Direita" />
     </button>
     </div>
     </div>
