@@ -19,37 +19,41 @@
 
     .conteudo {
         background: #fff;
-        padding: 20px;
+        padding: 15px;
         border-radius: 15px;
         width: 70%;
         height: 70%;
         z-index: 10;
     
-        .fechar {
-            display: flex;
-            justify-content: flex-end;
-            padding: 10px;
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-                font-size: 15pt;
-                &:hover {
-                    color: red;
-                }
-            }
-          }
+
         .grid {
             display: grid;
-            height: 90%;
+            height: 100%;
             column-gap: 50px;
+
+            .fechar {
+                grid-column: 3;
+                justify-content: flex-end;
+                button {
+                    grid-row: 1;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 15pt;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
             
+
             img {
                 height: 100%;
                 width: 100%;
                 grid-column: 1;
                 grid-row: 1/5;
-                border: 10px solid blue;
+   
+ 
             }
             h1 {
                 grid-column: 2/2;
@@ -66,6 +70,7 @@
                 font-style: italic;
             }
             .buttons {
+                grid-column: 2/4;
                 grid-row: 4/4;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -103,3 +108,20 @@
     }
   }
   
+/* 
+        .fechar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            button {
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 15pt;
+                &:hover {
+                    color: red;
+                }
+            }
+          }
+        .grid {
+*/
