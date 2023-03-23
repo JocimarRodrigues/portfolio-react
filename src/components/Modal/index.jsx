@@ -11,10 +11,10 @@ function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub
                  <div className={styles.conteudo}>
      
                    <div className={styles.grid}>
-                      <img src={imagem} alt={descricao} />
                       <div className={styles.fechar}>
                      <button onClick={fecharModal}>X</button>
                    </div>
+                      <img src={imagem} alt={descricao} />
                      <h1>{titulo}</h1>
                      <h2>{descricao}</h2>
                      <div className={styles.buttons}>

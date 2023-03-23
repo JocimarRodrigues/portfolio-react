@@ -1,127 +1,197 @@
-@import 'styles/_variaveis';
+@import "styles/_variaveis";
 
 .modal {
-    color: black
+  color: black;
 }
 
 .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    z-index: 2;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  z-index: 2;
 
-    .conteudo {
-        background: #fff;
-        padding: 15px;
-        border-radius: 15px;
-        width: 70%;
-        height: 70%;
-        z-index: 10;
-    
+  .conteudo {
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    height: 70%;
+    z-index: 10;
 
-        .grid {
-            display: grid;
-            height: 100%;
-            column-gap: 50px;
+    .grid {
+      display: grid;
+      height: 100%;
+      column-gap: 50px;
 
-            .fechar {
-                grid-column: 3;
-                justify-content: flex-end;
-                button {
-                    grid-row: 1;
-                    background: none;
-                    border: none;
-                    cursor: pointer;
-                    font-size: 15pt;
-                    &:hover {
-                        color: red;
-                    }
-                }
-            }
-            
-
-            img {
-                height: 100%;
-                width: 100%;
-                grid-column: 1;
-                grid-row: 1/5;
-   
- 
-            }
-            h1 {
-                grid-column: 2/2;
-                grid-row: 1/2;
-                color: red;
-
-                text-align: center;
-            }
-            h2 {
-                padding: 25px;
-                -size: 15pt;
-                width: 100%;
-                grid-row: 2/3;
-                font-style: italic;
-            }
-            .buttons {
-                grid-column: 2/4;
-                grid-row: 4/4;
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                align-items: center;
-                
-                .btnGitHub {
-                    background: black;
-  
-                }
-                .btnLinkedin {
-                    background: orange;
-                    color: black;
-
-                }
-                button {
-                    color: white;
-                    font-weight: 500;
-                    grid-column: 2/2;
-                    width: 100%;
-                    padding: 20px;
-                    transition: 1s;
-                    border: none;
-                    cursor: pointer;
-                    font-size: $tamanho-do-titulo / 2;
-                    &:hover {
-                        color: $cor-sobre;
-                    }
-
-                
-
-                }
-            }
-
+      .fechar {
+        grid-column: 3;
+        justify-content: flex-end;
+        button {
+          grid-row: 1;
+          background: none;
+          border: none;
+          cursor: pointer;
+          font-size: 15pt;
+          &:hover {
+            color: red;
+          }
         }
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1/5;
+      }
+      h1 {
+        grid-column: 2/2;
+        grid-row: 1/2;
+        color: red;
+
+        text-align: center;
+      }
+      h2 {
+        padding: 25px;
+        -size: 15pt;
+        width: 100%;
+        grid-row: 2/3;
+        font-style: italic;
+      }
+      .buttons {
+        grid-column: 2/4;
+        grid-row: 4/4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        .btnGitHub {
+          background: black;
+        }
+        .btnLinkedin {
+          background: orange;
+          color: black;
+        }
+        button {
+          color: white;
+          font-weight: 500;
+          grid-column: 2/2;
+          width: 100%;
+          padding: 20px;
+          transition: 1s;
+          border: none;
+          cursor: pointer;
+          font-size: $tamanho-do-titulo / 2;
+          &:hover {
+            color: $cor-sobre;
+          }
+        }
+      }
     }
   }
-  
-/* 
+}
+
+@media (min-width: 360px) {
+  .overlay {
+    .conteudo {
+      width: 50%;
+      .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
         .fechar {
-            display: flex;
-            justify-content: flex-end;
+          position: relative;
+          bottom: 2%;
+          left: 46%;
+        }
+
+        img {
+          width: 150px;
+          height: 150px;
+        }
+
+        h1 {
+          font-size: $tamanho-do-texto * 1.5;
+        }
+
+        h2 {
+          font-size: $tamanho-do-texto;
+        }
+
+        .buttons {
+          button {
             padding: 10px;
-            button {
-                background: none;
-                border: none;
-                cursor: pointer;
-                font-size: 15pt;
-                &:hover {
-                    color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 414px) {
+  .overlay {
+    .conteudo {
+      width: 80%;
+      .grid {
+        img {
+          width: 250px;
+          height: 250px;
+        }
+
+        h1 {
+          font-size: $tamanho-do-titulo / 1.5;
+        }
+
+        h2 {
+          font-size: $tamanho-do-texto * 1.2;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) {
+    .overlay {
+        .conteudo {
+            padding: 0;
+
+            .grid {
+                display: grid;
+                column-gap: 8px;
+  
+
+                .fechar {
+                    bottom: 0;
+                    left: 0;
+                    grid-row: 1;
+                }
+
+                img {
+                    border-radius: 15px;
+                    grid-column: 1;
+                    grid-row: 1/5;
+                    height: 550px;
+                    width: 550px;
+                }
+
+                h1 {
+                    grid-row: 2;
+                }
+
+                h2 {
+                    padding: 0;
+                    grid-row: 3/4;
                 }
             }
-          }
-        .grid {
-*/
+        }
+    }
+}
