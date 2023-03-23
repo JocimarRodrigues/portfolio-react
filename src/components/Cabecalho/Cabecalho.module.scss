@@ -51,7 +51,7 @@
     }
 }
 
-@media (width: 360px) {
+@media (min-width: 360px) {
     .cabecalho {
         padding: 0;
         position: fixed;
@@ -64,7 +64,7 @@
     }
 }
 
-@media (width: 414px) {
+@media (min-width: 414px) {
     .cabecalho {
         padding: 0;
         .nav {
@@ -72,6 +72,18 @@
 
                 margin: auto;
                 font-size: $tamanho-do-texto * 0.8;
+            }
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .cabecalho {
+        padding: 1.1em 4em;
+        .nav {
+            li {
+                margin: auto;
+                font-size: $tamanho-do-texto;
             }
         }
     }

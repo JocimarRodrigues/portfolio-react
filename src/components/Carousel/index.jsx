@@ -48,4 +48,3 @@ function Carousel({children}) {
 
 export default Carousel
 
-/* <img src="./Imagens/megumin2.png" alt="Children" /> */
