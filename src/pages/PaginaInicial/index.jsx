@@ -1,6 +1,7 @@
 import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
 import foto from "./megumin.jpg";
+import vitrine from './vitrine.png'
 import styles from "./PaginaInicial.module.scss";
 
 
@@ -87,7 +88,7 @@ function PaginaInicial() {
         <section>
           <Habilidades />
           <div className={styles.vitrine}>
-            <img src="/assets/imagens/PaginaInicial/vitrine.png" alt="" />
+            <img src={vitrine} alt="Vitrine.Dev" />
           </div>
         </section>
 
