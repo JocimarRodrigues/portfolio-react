@@ -114,18 +114,22 @@
       img {
         float: none;
         width: 80vw;
+        margin-bottom: 15px;
       }
       h1,
       h2,
       span {
         font-size: $tamanho-do-texto * 1.4;
-        padding-top: 15px;
+        margin: 2px;
+        
       }
       ul {
+        margin-top: 5px;
+        margin-right: 35px;
         li {
           margin: 0 5px;
           img {
-            width: 18vw;
+            width: 20vw;
             height: 5vw;
           }
         }
@@ -210,7 +214,7 @@
         li {
           img {
             width: 10vw;
-            height: 2.1vw;
+            height: 3vw;
           }
         }
       }
@@ -241,9 +245,10 @@
       }
       ul {
         li {
+          margin: 0 10px;
           img {
             width: 8vw;
-            height: 2vw;
+            height: 2.5vw;
           }
         }
       }
