@@ -1,3 +1,5 @@
+@import 'styles/_variaveis';
+
 .modal {
     color: black
 }
@@ -58,8 +60,8 @@
             }
             h2 {
                 padding: 25px;
-                font-size: 15pt;
-                max-width: 100%;
+                -size: 15pt;
+                width: 100%;
                 grid-row: 2/3;
                 font-style: italic;
             }
@@ -68,12 +70,14 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 align-items: center;
+                
                 .btnGitHub {
                     background: black;
   
                 }
                 .btnLinkedin {
-                    background: blue;
+                    background: orange;
+                    color: black;
 
                 }
                 button {
@@ -84,11 +88,14 @@
                     padding: 20px;
                     transition: 1s;
                     border: none;
+                    cursor: pointer;
+                    font-size: $tamanho-do-titulo / 2;
+                    &:hover {
+                        color: $cor-sobre;
+                    }
 
                 
-                    &:hover {
-                        transform: scale(1.2);
-                    }
+
                 }
             }
 
