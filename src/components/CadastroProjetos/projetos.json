@@ -3,7 +3,7 @@
         "id": 0,
         "titulo": "Barbearia Alura",
         "imagem": "/assets/Imagens/Projetos/HTML-CSS/Barbearia-Alura.png",
-        "descricao": "Barberia Alura, primeiro projeto na alurasssssssssssssssssssssssssss",
+        "descricao": "Barberia Alura, primeiro projeto na alurasssssssssssssssssssssssssss, o foco desse curso foi treinar HTML, CSS",
         "tags": "HTML-CSS",
         "linkGitHub": "https://github.com/JocimarRodrigues/Barbearia-Alura",
         "linkDeploy": "https://barbearia-alura-cld6vtwau-jocimarrodrigues.vercel.app"

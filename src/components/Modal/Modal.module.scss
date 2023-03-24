@@ -14,22 +14,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   z-index: 2;
 
   .conteudo {
-    background: #fff;
+    background: linear-gradient(to left, #191717, #434343);
     padding: 15px;
     border-radius: 15px;
     width: 70%;
     height: 70%;
     z-index: 10;
 
+
     .grid {
       display: grid;
       height: 100%;
       column-gap: 50px;
-
+      padding: 0 10px;
       .fechar {
         grid-column: 3;
         justify-content: flex-end;
@@ -101,7 +102,7 @@
 @media (min-width: 360px) {
   .overlay {
     .conteudo {
-      width: 50%;
+      width: 70%;
       .grid {
         display: flex;
         justify-content: center;
@@ -115,8 +116,8 @@
         }
 
         img {
-          width: 150px;
-          height: 150px;
+          width: 180px;
+          height: 180px;
         }
 
         h1 {
@@ -140,19 +141,22 @@
 @media (min-width: 414px) {
   .overlay {
     .conteudo {
+
       width: 80%;
+      height: 60%;
       .grid {
+
         img {
-          width: 250px;
-          height: 250px;
+          width: 200px;
+          height: 200px;
         }
 
         h1 {
-          font-size: $tamanho-do-titulo / 1.5;
+          font-size: $tamanho-do-titulo / 1.6;
         }
-
         h2 {
-          font-size: $tamanho-do-texto * 1.2;
+          padding: 0;
+          font-size: $tamanho-do-texto * 1.1;
         }
       }
     }
@@ -163,8 +167,10 @@
     .overlay {
         .conteudo {
             padding: 0;
+            width: 90%;
 
             .grid {
+              padding: 0;
                 display: grid;
                 column-gap: 8px;
   
@@ -176,11 +182,11 @@
                 }
 
                 img {
-                    border-radius: 15px;
+                    border-radius: 15px 0 0 15px;
                     grid-column: 1;
                     grid-row: 1/5;
-                    height: 550px;
-                    width: 550px;
+                    height: 100%;
+                    width: 360px;
                 }
 
                 h1 {
@@ -191,7 +197,47 @@
                     padding: 0;
                     grid-row: 3/4;
                 }
+
+                .buttons {
+                  margin: 0 15px;
+                }
             }
         }
     }
+}
+
+@media (min-width: 1440px) {
+  .overlay {
+    .conteudo {
+      .grid {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .overlay {
+
+    .conteudo {
+
+      .grid {
+        align-items: normal;
+        justify-content: stretch;
+
+        column-gap: 0;
+        .fechar {
+         padding-top: 15px;
+          margin: 0;
+        }
+
+
+        img {
+          width: 1000px;
+        }
+      }
+    }
+  }
 }
