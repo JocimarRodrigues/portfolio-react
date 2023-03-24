@@ -7,13 +7,14 @@ function CadastroProjetos({categoria}) {
     <>
       {projetos.map(
         (item) =>
-          categoria === item.tags && (
+          categoria === item.categoria && (
             <ProjetosCadastrados 
             titulo={item.titulo}
             id={item.id}
             key={item.id}
             imagem={item.imagem}
             descricao={item.descricao}
+            categoria={item.categoria}
             tags={item.tags}
             linkGitHub={item.linkGitHub}
             linkDeploy={item.linkDeploy}

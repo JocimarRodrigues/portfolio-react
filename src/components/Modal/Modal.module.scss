@@ -50,7 +50,7 @@
         height: 100%;
         width: 100%;
         grid-column: 1;
-        grid-row: 1/5;
+        grid-row: 1/6;
       }
       h1 {
         grid-column: 2/2;
@@ -61,14 +61,19 @@
       }
       h2 {
         padding: 25px;
-        -size: 15pt;
+
         width: 100%;
-        grid-row: 2/3;
+        grid-row: 3;
         font-style: italic;
+      }
+
+      h3 {
+        grid-column: 2;
+        grid-row: 4;
       }
       .buttons {
         grid-column: 2/4;
-        grid-row: 4/4;
+        grid-row: 5;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -128,6 +133,7 @@
           font-size: $tamanho-do-texto;
         }
 
+
         .buttons {
           button {
             padding: 10px;
@@ -184,7 +190,6 @@
                 img {
                     border-radius: 15px 0 0 15px;
                     grid-column: 1;
-                    grid-row: 1/5;
                     height: 100%;
                     width: 360px;
                 }

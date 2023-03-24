@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Modal.module.scss'
 
-function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub, linkDeploy}) {
+function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub, linkDeploy, tags}) {
 
   return (
 
@@ -17,6 +17,7 @@ function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub
                       <img src={imagem} alt={descricao} />
                      <h1>{titulo}</h1>
                      <h2>{descricao}</h2>
+                     <h3>{tags}</h3>
                      <div className={styles.buttons}>
                       <a href={linkGitHub}>
 

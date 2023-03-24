@@ -4,6 +4,7 @@
         "titulo": "Barbearia Alura",
         "imagem": "/assets/Imagens/Projetos/HTML-CSS/Barbearia-Alura.png",
         "descricao": "Barberia Alura, primeiro projeto na alurasssssssssssssssssssssssssss, o foco desse curso foi treinar HTML, CSS",
+        "categoria": "HTML-CSS",
         "tags": "HTML-CSS",
         "linkGitHub": "https://github.com/JocimarRodrigues/Barbearia-Alura",
         "linkDeploy": "https://barbearia-alura-cld6vtwau-jocimarrodrigues.vercel.app"
@@ -14,6 +15,7 @@
         "titulo": "FreeWay",
         "imagem": "/assets/Imagens/Projetos/Javascript/projeto1.png",
         "descricao": "Este projeto foi realizado com base nos conhecimentos que adquiri na plataforma ALURA. A ideia é recriar o game FreeWay de Atari, este projeto foca em utilizar laços, condições e listas.",
+        "categoria": "JavaScript",
         "tags": "JavaScript",
         "linkGitHub": "https://editor.p5js.org/John1336/sketches/zAKMb2FnG",
         "linkDeploy": "https://editor.p5js.org/John1336/full/zAKMb2FnG"
@@ -23,7 +25,8 @@
         "titulo": "JokenPo",
         "imagem": "/assets/Imagens/Projetos/Javascript/JokenPo.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
-        "tags": "JavaScript",
+        "categoria": "JavaScript",
+        "tags": "HTML, CSS, JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Jogo-JokenPo",
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
     },
@@ -32,7 +35,8 @@
         "titulo": "ValidaCep",
         "imagem": "/assets/Imagens/Projetos/Javascript/ValidaCep.png",
         "descricao": "Projeto ValidaCep",
-        "tags": "JavaScript",
+        "categoria": "JavaScript",
+        "tags": "HTML, CSS, JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Valida-CEP",
         "linkDeploy": "https://jocimarrodrigues.github.io/Valida-CEP/"
     },
@@ -41,7 +45,8 @@
         "titulo": "Portfólio HTML",
         "imagem": "/assets/Imagens/Projetos/Javascript/PortfolioHTML.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
-        "tags": "JavaScript",
+        "categoria": "JavaScript",
+        "tags": "HTML, CSS, JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Portfolio",
         "linkDeploy": "https://jocimarrodrigues.github.io/Portfolio/"
     },
@@ -51,7 +56,8 @@
         "titulo": "Relógio",
         "imagem": "/assets/Imagens/Projetos/Javascript/Relogio.png",
         "descricao": "Relogio.",
-        "tags": "JavaScript",
+        "categoria": "JavaScript",
+        "tags": "HTML, CSS, JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Relogio",
         "linkDeploy": "https://jocimarrodrigues.github.io/Relogio/"
     },
@@ -60,7 +66,8 @@
         "titulo": "SecretWord",
         "imagem": "/assets/Imagens/Projetos/React/SecretWord.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
-        "tags": "React",
+        "categoria": "React",
+        "tags": "HTML, CSS, JavaScript, React",
         "linkGitHub": "https://github.com/JocimarRodrigues/Jogo-JokenPo",
         "linkDeploy": "https://jocimarrodrigues.github.io/Jogo-JokenPo/"
     },
@@ -69,7 +76,8 @@
         "titulo": "Estante-Virtual",
         "imagem": "/assets/Imagens/Projetos/React/Estante-Virtual.png",
         "descricao": "Este foi um projeto que eu criei, depois de finalizar o curso de JavaScript da plataforma CursoEmVideo. A ideia é criar um game JokenPo contra o computador.",
-        "tags": "React",
+        "categoria": "React",
+        "tags": "HTML, CSS, JavaScript, React",
         "linkGitHub": "https://github.com/JocimarRodrigues/Estante-Virtual",
         "linkDeploy": "https://estantevirtual-jocimar.vercel.app"
     }
