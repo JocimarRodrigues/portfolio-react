@@ -52,7 +52,7 @@
   }
 }
 
-@media (width: 360px) {
+@media (min-width: 360px) {
   .container {
     .buttons {
       .esquerda {
@@ -73,7 +73,9 @@
   }
 }
 
-@media (width: 414px) {
+
+
+@media (min-width: 414px) {
   .container {
 
     .buttons {
