@@ -25,14 +25,12 @@
     height: 70%;
     z-index: 10;
 
-
     .grid {
       display: grid;
       height: 100%;
       column-gap: 50px;
       padding: 0 10px;
       .fechar {
-
         justify-content: flex-end;
 
         button {
@@ -121,12 +119,9 @@
         grid-template-columns: auto;
         margin: 0;
 
-
-
-
         .fechar {
-         display: flex;
-         background-size: 0;
+          display: flex;
+          background-size: 0;
           grid-row: 1;
           button {
             background: black;
@@ -147,18 +142,16 @@
           grid-column: 1;
           grid-row: 3;
           font-size: $tamanho-do-texto * 2;
-
         }
 
         h2 {
           padding: 0;
           width: 100%;
           flex-wrap: wrap;
-          text-align: justify-all;
+
           grid-column: 1;
           grid-row: 4;
           font-size: $tamanho-do-texto;
-
         }
 
         h3 {
@@ -175,7 +168,6 @@
           color: $cor-apresentacao;
         }
 
-
         .buttons {
           grid-column: 1;
           grid-row: 7;
@@ -191,21 +183,11 @@
 @media (min-width: 414px) {
   .overlay {
     .conteudo {
-
-      width: 80%;
-      height: 80%;
       .grid {
-
-      .fechar {
-        left: 135px;
-
-        }
-
         h1 {
           font-size: $tamanho-do-titulo / 1.2;
         }
         h2 {
-
           font-size: $tamanho-do-texto * 1.1;
         }
 
@@ -218,48 +200,63 @@
 }
 
 @media (min-width: 720px) {
-    .overlay {
-        .conteudo {
-            padding: 0;
-            width: 90%;
-            height: 70%;
+  .overlay {
+    .conteudo {
+      padding: 0;
+      width: 90%;
+      height: 70%;
+      grid-template-columns: 1fr 1fr;
 
-            .grid {
-              padding: 0;
-                display: grid;
-                column-gap: 8px;
-  
+      .grid {
+        align-items: normal;
+        justify-content: stretch;
 
-                .fechar {
-                  justify-content: center;
-                  top: 5px;
-                    bottom: 0;
-                    left: -15px;
-                    grid-row: 1;
-                }
+        column-gap: 8px;
 
-                img {
-                    border-radius: 15px 0 0 15px;
-                    grid-column: 1;
-                    height: 100%;
-                    width: 360px;
-                }
-
-                h1 {
-                    grid-row: 2;
-                }
-
-                h2 {
-                    padding: 0;
-                    grid-row: 3/4;
-                }
-
-                .buttons {
-                  margin: 0 15px;
-                }
-            }
+        .fechar {
+          padding: 20px;
         }
+
+        img {
+          border-radius: 15px 0 0 15px;
+          grid-column: 1;
+          height: 100%;
+          width: 400px;
+          grid-row: 1/7;
+        }
+
+        h1 {
+          font-size: $tamanho-do-titulo / 1.5;
+          margin: 0;
+          grid-column: 2;
+          grid-row: 2;
+        }
+
+        h2 {
+          grid-column: 2;
+          padding: 0;
+          grid-row: 3;
+          font-size: $tamanho-do-texto;
+        }
+
+        h3 {
+          grid-column: 2;
+          grid-row: 4;
+        }
+
+        h4 {
+          grid-column: 2;
+          grid-row: 5;
+        }
+
+        .buttons {
+          grid-row: 6;
+          grid-column: 2;
+          margin: 0 15px;
+        }
+      }
     }
+  }
 }
 
 @media (min-width: 1440px) {
@@ -267,7 +264,7 @@
     .conteudo {
       .grid {
         img {
-          width: 100%;
+          width: 500px;
         }
       }
     }
@@ -276,28 +273,31 @@
 
 @media (min-width: 1920px) {
   .overlay {
-
     .conteudo {
-
       .grid {
-        align-items: normal;
-        justify-content: stretch;
-
-        column-gap: 0;
-        .fechar {
-         padding-top: 15px;
-          margin: 0;
-        }
-
-
         img {
           width: 1000px;
+        }
+
+        h1 {
+          font-size: $tamanho-do-titulo;
+        }
+
+        h2 {
+          font-size: $tamanho-do-texto * 1.4;
+        }
+
+        h3 {
+          font-size: $tamanho-do-titulo / 1.5;
+        }
+
+        h4 {
+        
         }
       }
     }
   }
 }
-
 
 /* 
 
@@ -310,7 +310,6 @@
          bottom: 5px;
 
 */
-
 
 /* 
        .fechar {
