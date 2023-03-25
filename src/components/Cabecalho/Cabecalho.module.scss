@@ -14,6 +14,7 @@
     width: 100%;
     font-family: $fonte-roboto;
 
+
     .nav {
 
         li {
@@ -29,6 +30,7 @@
             position: relative;
             color: $cor-apresentacao;
             font-size: $tamanho-do-texto * 1.3;
+            font-weight: 900;
             &:hover {
                 transform: scale(1.6);
             }
@@ -58,7 +60,7 @@
         .nav {
             li {
                 margin: auto;
-                font-size: $tamanho-do-texto * 0.8;
+                font-size: $tamanho-do-texto * 0.7;
             }
         }
     }
