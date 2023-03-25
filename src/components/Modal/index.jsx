@@ -18,7 +18,8 @@ function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub
                       <img src={imagem} alt={descricao} />
                      <h1>{titulo}</h1>
                      <h2>{descricao}</h2>
-                     <h3>{tags}</h3>
+                     <h3>Tecnologias No Projeto</h3>
+                     <h4>{tags}</h4>
                      <div className={styles.buttons}>
                       <a href={linkGitHub}>
 
