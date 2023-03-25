@@ -34,12 +34,16 @@
       .fechar {
         grid-column: 3;
         justify-content: flex-end;
+        background-color: rgb(231, 11, 11);
+        border-radius: 20px;
         button {
           grid-row: 1;
           background: none;
           border: none;
           cursor: pointer;
           font-size: 15pt;
+          color: white;
+          font-weight: 600;
           &:hover {
             color: red;
           }
@@ -116,8 +120,9 @@
 
         .fechar {
           position: relative;
-          bottom: 2%;
-          left: 46%;
+          top: 6px;
+          bottom: 0;
+          left: 120px;
         }
 
         img {
@@ -149,8 +154,13 @@
     .conteudo {
 
       width: 80%;
-      height: 60%;
+      height: 80%;
       .grid {
+
+      .fechar {
+        left: 135px;
+
+        }
 
         img {
           width: 200px;
@@ -174,6 +184,7 @@
         .conteudo {
             padding: 0;
             width: 90%;
+            height: 70%;
 
             .grid {
               padding: 0;
@@ -182,8 +193,10 @@
   
 
                 .fechar {
+                  justify-content: center;
+                  top: 5px;
                     bottom: 0;
-                    left: 0;
+                    left: -15px;
                     grid-row: 1;
                 }
 

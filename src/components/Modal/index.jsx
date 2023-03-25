@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Modal.module.scss'
+import btnFechar from './btnFechar.png';
 
 function Modal({mostrarModal, descricao, fecharModal, imagem, titulo, linkGitHub, linkDeploy, tags}) {
 
