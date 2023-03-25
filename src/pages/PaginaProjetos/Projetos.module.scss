@@ -12,6 +12,11 @@
     h1 {
         font-size: $tamanho-do-titulo;
         color: $cor-sobre;
+        transition: 1s;
+        &:hover {
+            background: rgba(0, 0, 0, 0.854)
+         
+        }
         
     }
     .lista {

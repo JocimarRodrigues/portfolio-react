@@ -142,6 +142,9 @@
           grid-column: 1;
           grid-row: 3;
           font-size: $tamanho-do-texto * 2;
+          &:hover {
+            background: none;
+          }
         }
 
         h2 {
@@ -199,34 +202,40 @@
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   .overlay {
     .conteudo {
       padding: 0;
       width: 90%;
-      height: 70%;
+      height: 80%;
       grid-template-columns: 1fr 1fr;
 
       .grid {
         align-items: normal;
         justify-content: stretch;
-
+        height: 100%;
         column-gap: 8px;
 
         .fechar {
-          padding: 20px;
+
+          padding: 5px;
+          button {
+            width: 20px;
+            height: 30px;
+            font-size: 10pt;
+          }
         }
 
         img {
           border-radius: 15px 0 0 15px;
           grid-column: 1;
           height: 100%;
-          width: 400px;
+          width: 320px;
           grid-row: 1/7;
         }
 
         h1 {
-          font-size: $tamanho-do-titulo / 1.5;
+          font-size: $tamanho-do-titulo / 2;
           margin: 0;
           grid-column: 2;
           grid-row: 2;
@@ -236,35 +245,86 @@
           grid-column: 2;
           padding: 0;
           grid-row: 3;
-          font-size: $tamanho-do-texto;
+          font-size: $tamanho-do-texto * 0.8;
         }
 
         h3 {
+          margin: 0;
           grid-column: 2;
           grid-row: 4;
+          font-size: $tamanho-do-texto * 1.1;
         }
 
         h4 {
+          font-size: $tamanho-do-texto;
           grid-column: 2;
           grid-row: 5;
         }
 
         .buttons {
+          padding: 0;
           grid-row: 6;
           grid-column: 2;
           margin: 0 15px;
+          button {
+            padding: 5px;
+          }
         }
       }
     }
   }
 }
 
+@media (min-width: 768px) {
+  .overlay {
+    .conteudo {
+      margin-top: 50px;
+
+      .grid {
+
+        .fechar {
+          padding: 20px;
+          button {
+            width: 50px;
+            height: 50px;
+            font-size: 18pt;
+          }
+        }
+
+        img {
+          width: 400px;
+        }
+
+        h1 {
+          font-size: $tamanho-do-titulo / 1.5;
+        }
+
+        h2 {
+          font-size: $tamanho-do-texto;
+        }
+      }
+    }
+  }
+}
 @media (min-width: 1440px) {
   .overlay {
     .conteudo {
       .grid {
         img {
-          width: 500px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .overlay {
+    .conteudo {
+      .grid {
+        img {
+          width: 100%;
         }
       }
     }
