@@ -281,7 +281,7 @@
 
         h1 {
           font-size: $tamanho-do-titulo;
-          color: #FFED00;
+          color: $cor-sobre;
         }
 
         h2 {
@@ -289,11 +289,12 @@
         }
 
         h3 {
+          color: $cor-sobre;
           font-size: $tamanho-do-titulo / 1.5;
         }
 
         h4 {
-        
+          color: $cor-apresentacao;
         }
       }
     }
