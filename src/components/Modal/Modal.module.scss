@@ -21,14 +21,13 @@
     background: linear-gradient(to left, #191717, #434343);
     padding: 15px;
     border-radius: 15px;
-    width: 70%;
-    height: 70%;
+
     z-index: 10;
 
     .grid {
       display: grid;
       height: 100%;
-      column-gap: 50px;
+
       padding: 0 10px;
       .fechar {
         justify-content: flex-end;
@@ -47,32 +46,16 @@
         }
       }
 
-      img {
-        height: 100%;
-        width: 100%;
-        grid-column: 1;
-        grid-row: 1/6;
-      }
-      h1 {
-        grid-column: 2/2;
-        grid-row: 1/2;
-        color: red;
 
+      h1 {
         text-align: center;
       }
-      h2 {
-        padding: 25px;
-        width: 100%;
-        grid-row: 3;
-      }
 
-      h3 {
-        grid-column: 2;
-        grid-row: 4;
-      }
+
+
       .buttons {
-        grid-column: 2/4;
-        grid-row: 5;
+
+    
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -81,15 +64,13 @@
           background: black;
         }
         .btnLinkedin {
-          background: orange;
+          background: rgb(6, 25, 238);
           color: black;
         }
         button {
           color: white;
           font-weight: 500;
-          grid-column: 2/2;
           width: 100%;
-          padding: 20px;
           transition: 1s;
           border: none;
           cursor: pointer;
@@ -179,6 +160,19 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 375px) {
+  .overlay {
+    .conteudo {
+      .grid {
+        h1 {
+          margin: 0;
+        }
+      }
+    }
+
   }
 }
 
@@ -305,6 +299,8 @@
     }
   }
 }
+
+
 @media (min-width: 1440px) {
   .overlay {
     .conteudo {
@@ -312,18 +308,11 @@
         img {
           width: 100%;
         }
-      }
-    }
-  }
-}
-
-
-@media (min-width: 1440px) {
-  .overlay {
-    .conteudo {
-      .grid {
-        img {
-          width: 100%;
+        .buttons {
+          button {
+            padding: 15px;
+    
+          }
         }
       }
     }
@@ -360,25 +349,3 @@
   }
 }
 
-/* 
-
-        .fechar {
-          grid-column: 1;
-          width: 20%;
-          border-radius: 150px;
-         position: relative;
-         left: 230px;
-         bottom: 5px;
-
-*/
-
-/* 
-       .fechar {
-          grid-column: 1;
-          width: 20%;
-          border-radius: 150px;
-         position: relative;
-         left: 230px;
-         bottom: 5px;
-
-*/

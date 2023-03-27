@@ -1,6 +1,6 @@
 import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
-import foto from "./megumin.jpg";
+import fotoPerfil from "./fotoPerfil.png";
 import vitrine from './vitrine.png'
 import styles from "./PaginaInicial.module.scss";
 
@@ -32,7 +32,7 @@ function PaginaInicial() {
 
         <section>
           <div className={styles.apresentacao}>
-            <img src={foto} alt="" />
+            <img src={fotoPerfil} alt="Foto do perfil" />
             <h1 className={styles.texto}>Olá, me chamo</h1>
             <span ref={nomeRef} className={styles.texto}>
               Jocimar Rodrigues
