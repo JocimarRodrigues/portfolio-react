@@ -74,7 +74,7 @@
           transition: 1s;
           border: none;
           cursor: pointer;
-          font-size: $tamanho-do-titulo / 2;
+          font-size: calc($tamanho-do-titulo / 2);
           &:hover {
             color: $cor-sobre;
           }
@@ -181,7 +181,7 @@
     .conteudo {
       .grid {
         h1 {
-          font-size: $tamanho-do-titulo / 1.2;
+          font-size: calc($tamanho-do-titulo / 1.2);
         }
         h2 {
           font-size: $tamanho-do-texto * 1.1;
@@ -228,7 +228,7 @@
         }
 
         h1 {
-          font-size: $tamanho-do-titulo / 2;
+          font-size: calc($tamanho-do-titulo / 2);
           margin: 0;
           grid-column: 2;
           grid-row: 2;
@@ -289,7 +289,7 @@
         }
 
         h1 {
-          font-size: $tamanho-do-titulo / 1.5;
+          font-size: calc($tamanho-do-titulo / 1.5);
         }
 
         h2 {
@@ -338,7 +338,7 @@
 
         h3 {
           color: $cor-sobre;
-          font-size: $tamanho-do-titulo / 1.5;
+          font-size: calc($tamanho-do-titulo / 1.5);
         }
 
         h4 {
