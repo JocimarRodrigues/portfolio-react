@@ -11,7 +11,7 @@ function Cabecalho() {
     <nav className={styles.nav}>
     <CabecalhoLink url="./"> 
     <li>
-      Home   
+      Inicio   
     </li>
     </CabecalhoLink>
     <CabecalhoLink url="./projetos">
