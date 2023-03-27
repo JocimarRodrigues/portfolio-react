@@ -73,6 +73,16 @@
   }
 }
 
+@media (min-width:375px) {
+  .container {
+    .buttons {
+      button {
+        bottom: 140px;
+      }
+    }
+  }
+}
+
 
 
 @media (min-width: 414px) {
