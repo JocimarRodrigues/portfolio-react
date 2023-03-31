@@ -88,7 +88,10 @@ function PaginaInicial() {
         <section>
           <Habilidades />
           <div className={styles.vitrine}>
+            <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337">
+
             <img src={vitrine} alt="Vitrine.Dev" />
+            </a>
           </div>
         </section>
 

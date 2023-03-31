@@ -46,6 +46,10 @@
   img {
     border-radius: 250px;
     float: right;
+    transition: 1s;
+    &:hover {
+      opacity: 0.6;
+    }
   }
   ul {
     display: flex;
@@ -147,6 +151,7 @@
     }
     p {
       font-size: $tamanho-do-texto;
+      
     }
   }
 }
