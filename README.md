@@ -12,7 +12,7 @@ Neste repisitório você irá encontrar a versão mais atual do meu portfólio, 
 
 | 🪧 Portfólio |     |
 | -------------- | --- |
-| 🏷️ Tecnologias | React, JavaScript, HTML, CSS, SASS|
+| 🏷️ Tecnologias | React, JavaScript, HTML, CSS, SCSS|
 | 🚀 URL         | **https://portfolio-jocimar.vercel.app** |
 
 ## Demonstração de uso
@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/116130103/229241514-d8785844-19f4-4806
 
 ## ✅ Requisitos técnicos
 
-- **Front-end:** React, Javascript, SASS.
+- **Front-end:** React, Javascript, SCSS.
 - **Back-end:** Node.
 
 ## 🖧 Funcionalidades
