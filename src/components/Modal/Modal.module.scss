@@ -76,7 +76,7 @@
           cursor: pointer;
           font-size: calc($tamanho-do-titulo / 2);
           &:hover {
-            color: $cor-sobre;
+            color: $cor-do-titulo;
           }
         }
       }
@@ -121,7 +121,7 @@
           grid-column: 1;
           grid-row: 3;
           font-size: $tamanho-do-texto * 2;
-          color: $cor-sobre;
+          color: $cor-do-titulo;
           &:hover {
             background: none;
           }
@@ -139,7 +139,7 @@
         h3 {
           grid-column: 1;
           grid-row: 5;
-          color: $cor-sobre;
+          color: $cor-do-titulo;
 
           font-size: $tamanho-do-texto * 1.2;
         }
@@ -330,7 +330,7 @@
 
         h1 {
           font-size: $tamanho-do-titulo;
-          color: $cor-sobre;
+          color: $cor-do-titulo;
         }
 
         h2 {
@@ -338,7 +338,7 @@
         }
 
         h3 {
-          color: $cor-sobre;
+          color: $cor-do-titulo;
           font-size: calc($tamanho-do-titulo / 1.5);
         }
 
