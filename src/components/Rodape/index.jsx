@@ -21,4 +21,4 @@ function Rodape() {
   )
 }
 
-export default Rodapegit 
+export default Rodape; 
