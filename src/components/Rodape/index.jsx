@@ -4,7 +4,7 @@ import styles from './Rodape.module.scss'
 function Rodape() {
   return (
     <div className={styles.container}>
-        <p>Criado por <b>&copy; Jocimar</b></p>
+        <p>Desenvolvido por <b>&copy; Jocimar</b></p>
         <ul>
             <li>
                 <a>
@@ -21,4 +21,4 @@ function Rodape() {
   )
 }
 
-export default Rodape
+export default Rodapegit 
