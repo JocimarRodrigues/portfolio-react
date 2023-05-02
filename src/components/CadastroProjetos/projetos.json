@@ -80,6 +80,16 @@
         "tags": "HTML, CSS, JavaScript, React",
         "linkGitHub": "https://github.com/JocimarRodrigues/Estante-Virtual",
         "linkDeploy": "https://estantevirtual-jocimar.vercel.app"
+    },
+    {
+        "id": 8,
+        "titulo": "API-GitHub",
+        "imagem": "/assets/Imagens/Projetos/React/ApiGitHub.png",
+        "descricao": "Desenvolvi este projeto para praticar e consolidar o meu conhecimento em fazer mock de API, estados globais e Context API.",
+        "categoria": "React",
+        "tags": "HTML, CSS, SASS, JavaScript, React",
+        "linkGitHub": "https://github.com/JocimarRodrigues/Estante-Virtual",
+        "linkDeploy": "https://estantevirtual-jocimar.vercel.app"
     }
 
 ]
