@@ -88,8 +88,8 @@
         "descricao": "Desenvolvi este projeto para praticar e consolidar o meu conhecimento em fazer mock de API, estados globais e Context API.",
         "categoria": "React",
         "tags": "HTML, CSS, SASS, JavaScript, React",
-        "linkGitHub": "https://github.com/JocimarRodrigues/Estante-Virtual",
-        "linkDeploy": "https://estantevirtual-jocimar.vercel.app"
+        "linkGitHub": "https://github.com/JocimarRodrigues/api-github",
+        "linkDeploy": "https://api-github-kappa.vercel.app"
     }
 
 ]
