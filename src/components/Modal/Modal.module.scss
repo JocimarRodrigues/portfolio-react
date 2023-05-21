@@ -294,6 +294,7 @@
 
         h2 {
           font-size: $tamanho-do-texto;
+          max-width: 99%;
         }
       }
     }
@@ -331,10 +332,12 @@
         h1 {
           font-size: $tamanho-do-titulo;
           color: $cor-do-titulo;
+     
         }
 
         h2 {
           font-size: $tamanho-do-texto * 1.4;
+      
         }
 
         h3 {

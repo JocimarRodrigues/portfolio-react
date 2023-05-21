@@ -280,3 +280,18 @@
     }
   }
 }
+
+@media(min-width: 2560px) {
+  .container {
+    .apresentacao {
+      ul {
+        li {
+          img {
+            width: 7vw;
+            height: 1.8vw;
+          }
+        }
+      }
+    }
+  }
+}

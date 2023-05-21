@@ -44,7 +44,7 @@
         "id": 4,
         "titulo": "Portfólio HTML",
         "imagem": "/assets/Imagens/Projetos/Javascript/PortfolioHTML.png",
-        "descricao": "Esta foi a primeira versão do meu portfólio, feito praticamente todo em HTML e CSS.",
+        "descricao": "Esta foi a primeira versão do meu portfólio, feito praticamente todo em HTML e CSS. Fiz este projeto após terminar minha primeira formação na alura. O projeto tem como objetivo praticar e treinar tags HTML e CSS",
         "categoria": "JavaScript",
         "tags": "HTML, CSS, JavaScript",
         "linkGitHub": "https://github.com/JocimarRodrigues/Portfolio",
