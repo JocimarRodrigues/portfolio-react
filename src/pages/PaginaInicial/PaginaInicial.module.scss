@@ -146,7 +146,7 @@
     margin: 0;
 
     h1 {
-      font-size: $tamanho-do-titulo / 1.5;
+      font-size: calc($tamanho-do-titulo / 1.5);
       text-align: center;
     }
     p {
@@ -241,7 +241,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .container {
     .apresentacao {
       padding: 20px 50px;
@@ -249,12 +249,16 @@
       h1, h2, span {
         font-size: $tamanho-do-texto * 2.8;
       }
+
+      img {
+        width: 25vw;
+      }
       ul {
         li {
           margin: 0 10px;
           img {
             width: 8vw;
-            height: 2.5vw;
+            height: 2.2vw;
           }
         }
       }
@@ -262,21 +266,16 @@
   }
 }
 
-@media (min-width: 1920px) {
+
+
+@media (min-width: 1440px) {
   .container {
     .apresentacao {
-      padding: 60px 40px;
       img {
         width: 20vw;
       }
-
       ul {
-        li {
-          img {
-            width: 5vw;
-            height: 1.5vw;
-          }
-        }
+        margin-top: 20px;
       }
     }
   }
