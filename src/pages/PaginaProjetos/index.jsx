@@ -36,4 +36,3 @@ function PaginaProjetos() {
 }
 
 export default PaginaProjetos;
-

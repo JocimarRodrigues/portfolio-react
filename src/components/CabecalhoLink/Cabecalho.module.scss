@@ -1,18 +1,15 @@
-@import 'styles/variaveis';
-
-
+@import "styles/variaveis";
 
 .link {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: end;
-    padding: 1em;
-    text-decoration: none;
-
+  font-size: 18px;
+  font-weight: 400;
+  text-align: end;
+  padding: 1em;
+  text-decoration: none;
 }
 
 @media (width: 360px) {
-    .link {
-        padding: 0.6em;
-    }
+  .link {
+    padding: 0.6em;
+  }
 }

@@ -1,13 +1,7 @@
-import styles from './Container.module.scss';
+import React from "react";
 
-import React from 'react'
-
-function Container( {children }) {
-  return (
-    <section className={styles.container}>
-        {children}
-    </section>
-  )
+function Container({ children }) {
+  return <section>{children}</section>;
 }
 
-export default Container
+export default Container;

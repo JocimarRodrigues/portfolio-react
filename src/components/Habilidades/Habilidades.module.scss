@@ -1,50 +1,49 @@
-@import 'styles/_variaveis';
+@import "styles/_variaveis";
 
 .titulo {
   text-align: center;
   font-size: $tamanho-do-titulo;
-  color: $cor-do-titulo
+  color: $cor-do-titulo;
 }
 
 .container {
-    ul {
-        display: flex;
-        justify-content: space-evenly;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
 
-        
-        li {
-            list-style: none;
-
-        }
-        img {
-            max-width: 150px;
-            margin: 15px;
-            overflow: hidden;
-            
-            transition: 1s;
-            &:hover {
-                transform: scale(1.2);
-            }
-        }
+    li {
+      list-style: none;
     }
+
+    img {
+      max-width: 150px;
+      margin: 15px;
+      overflow: hidden;
+      transition: 1s;
+      
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
 }
 
 @media (width: 360px) {
-    .container {
-        ul {
-            img {
-                width: 100px;
-            }
-        }
+  .container {
+    ul {
+      img {
+        width: 100px;
+      }
     }
+  }
 }
 
 @media (width: 414px) {
-    .container {
-        ul {
-            img {
-                width: 140px;
-            }
-        }
+  .container {
+    ul {
+      img {
+        width: 140px;
+      }
     }
+  }
 }

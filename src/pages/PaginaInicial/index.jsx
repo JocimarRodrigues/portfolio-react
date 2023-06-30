@@ -1,10 +1,8 @@
 import Habilidades from "components/Habilidades";
 import React, { useEffect, useRef } from "react";
 import fotoPerfil from "./fotoPerfil.png";
-import vitrine from './vitrine.png'
+import vitrine from "./vitrine.png";
 import styles from "./PaginaInicial.module.scss";
-
-
 
 function PaginaInicial() {
   const nomeRef = useRef(null);
@@ -27,9 +25,7 @@ function PaginaInicial() {
 
   return (
     <>
-
       <section className={styles.container}>
-
         <section>
           <div className={styles.apresentacao}>
             <img src={fotoPerfil} alt="Foto do perfil" />
@@ -74,14 +70,12 @@ function PaginaInicial() {
               tecnologia, mas nunca tinha tido contato com a programação, até
               pouco tempo, quando um amigo ingressou no mercado e me explicou
               como o mesmo funciona e a prática. Decidi me dedicar e tentar
-              aprender e, quando o fiz, me identifiquei com a área.
-              
-                Programar acabou virando um hobby, fiquei fascinado em aprender
-                novas linguagens e resolver problemas. Atualmente estou
-                estudando com foco em me tornar dev Front-End, neste portfólio
-                você poderá ver os projetos que desenvolvi até agora e poderá
-                acompanhar minha evolução.
-              
+              aprender e, quando o fiz, me identifiquei com a área. Programar
+              acabou virando um hobby, fiquei fascinado em aprender novas
+              linguagens e resolver problemas. Atualmente estou estudando com
+              foco em me tornar dev Front-End, neste portfólio você poderá ver
+              os projetos que desenvolvi até agora e poderá acompanhar minha
+              evolução.
             </p>
           </div>
         </section>
@@ -89,16 +83,11 @@ function PaginaInicial() {
           <Habilidades />
           <div className={styles.vitrine}>
             <a href="https://cursos.alura.com.br/vitrinedev/jocimarrodrigues1337">
-
-            <img src={vitrine} alt="Vitrine.Dev" />
+              <img src={vitrine} alt="Vitrine.Dev" />
             </a>
           </div>
         </section>
-
       </section>
-
-        
-
     </>
   );
 }

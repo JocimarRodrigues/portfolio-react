@@ -23,6 +23,7 @@
   span {
     color: $cor-apresentacao;
     font-weight: 900;
+
     &::after {
       content: "|";
       margin-left: 5px;
@@ -30,6 +31,7 @@
       animation: pisca 0.7s infinite;
     }
   }
+
   @keyframes pisca {
     0%,
     100% {
@@ -47,13 +49,16 @@
     border-radius: 250px;
     float: right;
     transition: 1s;
+
     &:hover {
       opacity: 0.6;
     }
   }
+
   ul {
     display: flex;
     list-style: none;
+
     li {
       margin: 0 15px;
       transition: 0.5s;
@@ -86,6 +91,7 @@
     font-size: $tamanho-do-titulo;
     color: $cor-do-titulo;
   }
+
   p {
     font-family: $fonte-roboto-condensed;
     font-style: italic;
@@ -102,6 +108,7 @@
 
   img {
     transition: 1s;
+
     &:hover {
       transform: scale(1.2);
     }
@@ -116,23 +123,27 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       img {
         float: none;
         width: 80vw;
         margin-bottom: 15px;
       }
+
       h1,
       h2,
       span {
         font-size: $tamanho-do-texto * 1.4;
         margin: 2px;
-        
       }
+
       ul {
         margin-top: 5px;
         margin-right: 35px;
+
         li {
           margin: 0 5px;
+
           img {
             width: 20vw;
             height: 5vw;
@@ -149,9 +160,9 @@
       font-size: calc($tamanho-do-titulo / 1.5);
       text-align: center;
     }
+
     p {
       font-size: $tamanho-do-texto;
-      
     }
   }
 }
@@ -164,19 +175,23 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       img {
         float: none;
         width: 80vw;
       }
+
       h1,
       h2,
       span {
         font-size: $tamanho-do-texto * 1.8;
         padding-top: 15px;
       }
+
       ul {
         li {
           margin: 0 5px;
+
           img {
             width: 20vw;
             height: 7vw;
@@ -193,6 +208,7 @@
       font-size: $tamanho-do-titulo;
       text-align: center;
     }
+
     p {
       text-align: center;
       font-size: $tamanho-do-texto * 1.4;
@@ -211,12 +227,15 @@
       span {
         font-size: $tamanho-do-texto * 1.8;
       }
+
       img {
         width: 30vw;
         float: right;
       }
+
       ul {
         display: flex;
+
         li {
           img {
             width: 10vw;
@@ -232,12 +251,12 @@
         font-size: $tamanho-do-titulo;
         text-align: center;
       }
+
       p {
         text-align: justify;
         font-size: $tamanho-do-texto * 1.5;
       }
     }
-
   }
 }
 
@@ -246,7 +265,9 @@
     .apresentacao {
       padding: 20px 50px;
 
-      h1, h2, span {
+      h1,
+      h2,
+      span {
         font-size: $tamanho-do-texto * 2.8;
       }
 
@@ -256,6 +277,7 @@
       ul {
         li {
           margin: 0 10px;
+
           img {
             width: 8vw;
             height: 2.2vw;
@@ -266,14 +288,13 @@
   }
 }
 
-
-
 @media (min-width: 1440px) {
   .container {
     .apresentacao {
       img {
         width: 20vw;
       }
+
       ul {
         margin-top: 20px;
       }
@@ -281,7 +302,7 @@
   }
 }
 
-@media(min-width: 2560px) {
+@media (min-width: 2560px) {
   .container {
     .apresentacao {
       ul {

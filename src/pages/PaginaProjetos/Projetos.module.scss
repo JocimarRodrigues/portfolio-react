@@ -1,49 +1,50 @@
-@import 'styles/_variaveis';
+@import "styles/_variaveis";
 
 .container {
-    background: url(./Projetos2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
+  background: url(./Projetos2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
 
-    h1 {
-        font-size: $tamanho-do-titulo;
-        color: $cor-do-titulo;
-        transition: 1s;
-        &:hover {
-            background: rgba(0, 0, 0, 0.854)
-         
-        }
-        
+  h1 {
+    font-size: $tamanho-do-titulo;
+    color: $cor-do-titulo;
+    transition: 1s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.854);
     }
-    .lista {
-        ul {
-            padding: 0;
-            display: flex;
-            justify-content: space-evenly;
+  }
+  .lista {
+    ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
 
-            li {
-                p {
-                    color: white;
-                }
-                list-style: none;
-                img {
-                    width: 300px;
-                    height: 200px;
-                    margin: 15px;
-                    overflow: hidden;
-                    border-radius: 15px;
-                    transition: 1s;
-                    cursor: pointer;
-                    &:hover {
-                        transform: scale(1.1);
-                    }
-            }
+      li {
+        list-style: none;
+
+        p {
+          color: white;
         }
 
+        img {
+          width: 300px;
+          height: 200px;
+          margin: 15px;
+          overflow: hidden;
+          border-radius: 15px;
+          transition: 1s;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+          }
         }
+      }
     }
+  }
 }

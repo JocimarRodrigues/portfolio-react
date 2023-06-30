@@ -2,42 +2,39 @@
   max-width: 50%;
   margin: auto;
   text-align: center;
-
   justify-content: center;
+
   .carousel {
     border: 15px transparent;
     max-height: 250px;
     display: flex;
     overflow-x: auto;
 
-
-
     &::-webkit-scrollbar {
       display: none;
     }
+
     scroll-behavior: smooth;
     .item {
-
-
       flex: none;
-
       border-radius: 16px;
-
     }
   }
   .buttons {
     width: 100%;
+    text-align: center;
+
     .esquerda {
       float: right;
       left: 125px;
     }
+
     .direita {
       transform: rotate(180deg);
       float: left;
       right: 125px;
     }
 
-    text-align: center;
     button {
       z-index: 1;
       position: relative;
@@ -45,6 +42,7 @@
       background-color: transparent;
       border: none;
       cursor: pointer;
+
       img {
         width: 120px;
       }
@@ -63,8 +61,10 @@
       .direita {
         right: 80px;
       }
+
       button {
         bottom: 118px;
+
         img {
           width: 70px;
         }
@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width:375px) {
+@media (min-width: 375px) {
   .container {
     .buttons {
       button {
@@ -83,11 +83,8 @@
   }
 }
 
-
-
 @media (min-width: 414px) {
   .container {
-
     .buttons {
       .esquerda {
         left: 80px;

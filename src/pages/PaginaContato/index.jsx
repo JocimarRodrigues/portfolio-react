@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './Contato.module.scss'
+import React from "react";
+import styles from "./Contato.module.scss";
 
 function PaginaContato() {
   return (
@@ -7,12 +7,12 @@ function PaginaContato() {
       <div>
         <ul>
           <li>
-            <a href="">
+            <a href="https://github.com/JocimarRodrigues">
               <img src="/assets/Imagens/Icones/GitHubC.png" alt="" />
             </a>
           </li>
           <li>
-          <a href="">
+            <a href="https://www.linkedin.com/in/jocimar-rodrigues-chagas/">
               <img src="/assets/Imagens/Icones/li.png" alt="" />
             </a>
           </li>
@@ -23,7 +23,7 @@ function PaginaContato() {
         <h2>jocimarwkg@gmail.com</h2>
       </div>
     </section>
-  )
+  );
 }
 
-export default PaginaContato
+export default PaginaContato;
