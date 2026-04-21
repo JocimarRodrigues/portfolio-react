@@ -1,12 +1,45 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
+  color: #e2e8f0;
+}
+
+html[data-theme="dark"] body {
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.14), transparent 24%),
+    radial-gradient(circle at top right, rgba(249, 115, 22, 0.08), transparent 18%),
+    linear-gradient(180deg, #020617 0%, #0f172a 44%, #020617 100%);
+  color: #e2e8f0;
+}
+
+html[data-theme="light"] body {
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 18%),
+    linear-gradient(180deg, #f8fbff 0%, #eef6ff 52%, #f8fbff 100%);
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 code {
